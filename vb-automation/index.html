@@ -7,6 +7,8 @@
     <title>vb-automation</title>
     <link rel="icon" type="image/png" sizes="32x32" href="/static/img/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/static/img/icons/favicon-16x16.png">
+    <link rel="stylesheet"
+          href="https://unpkg.com/material-components-web@latest/dist/material-components-web.css">
     <!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon.ico"><![endif]-->
     <!-- Add to home screen for Android and modern mobile browsers -->
     <link rel="manifest" href="/static/manifest.json">
@@ -33,5 +35,7 @@
     <!-- Todo: only include in production -->
     <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
     <!-- built files will be auto injected -->
+    
+    <script type="text/javascript" src="https://unpkg.com/material-components-web@latest/dist/material-components-web.js"></script>
   </body>
 </html>

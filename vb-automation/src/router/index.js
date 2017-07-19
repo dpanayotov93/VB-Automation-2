@@ -1,10 +1,15 @@
 import Vue from 'vue'
+import VueImg from 'v-img'
 import Router from 'vue-router'
 import Home from '../components/Home'
 import Products from '../components/Products'
 import Product from '../components/Product'
 import Profile from '../components/Profile'
+
+// var $ = window.jQuery = require('jquery')
+
 Vue.use(Router)
+Vue.use(VueImg)
 export default new Router({
   routes: [
     {
@@ -13,7 +18,7 @@ export default new Router({
       component: Home
     },
     {
-      path: '/Products/',
+      path: '/products/',
       name: 'products',
       component: Products
     },
